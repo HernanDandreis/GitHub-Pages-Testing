@@ -1,0 +1,27 @@
+.col-12,
+.col-7 {
+    background-color: var(--bgc);
+    color: var(--TextColor);
+    margin: 12px 0;
+    padding: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* p,a {
+    display: flex;
+    align-items: center;
+} */
+
+
+body > div > div:nth-child(1) > div:nth-child(11) > img,
+body > div > div:nth-child(1) > div:nth-child(13) > img,
+body > div > div:nth-child(1) > div:nth-child(15) > img {
+    border-radius: 50%;
+}

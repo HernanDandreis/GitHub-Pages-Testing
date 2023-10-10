@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primigenia Austral</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/logo primigenia.png" type="image/x-icon">
+</head>
+<body>
+
+  <div class="container-fluid">
+
+      <!--NOSOTROS-->
+        <div class="row"> 
+            <div class="col-12 fw-bolder">
+                <h2 class="text-center">NOSOTROS</h2>
+            </div>
+            
+            <div class="col-7">
+                <h5>Sobre nosotros</h5>
+            </div>
+
+            <div class="row" style="background-color: #2c3742;">
+              <img class="col" src="./img/Beltaine.jpg" alt="" style="width: 375px">
+              <p class="col-7 ms-3"> Somos una pequeña editorial rolera enfocada en el movimiento indie que busca divulgar el talento Latino Americanos de creadorxs de juegos y artistas ligados al mundo del rol. Consideramos que LATAM tiene tanto para dar como otros lugares del mundo donde la industria del rol compite con otras relacionadas al entretenimiento y donde publicar nuestras ideas no solo sea un sueño lejano, con eso en mente hemos fundado Primigenia Austral queriendo marcar asi un presedente de que es posible hacer todo eso y mas. </p>
+            </div>
+
+            <div class="col-5"></div>
+            <div class="col-7">
+                <h5>Nuestras historia</h5>
+            </div>
+
+            <div class="row" style="background-color: #2c3742;">
+              <p class="col-7 ms-3">Esta idea nace durante el año 2016 en la ciudad durante el evento Rosario Juega Rol, cada uno de nosotros por nuestro lado teniamos entonces nuestros propios juegos no publciados y comenzo a brotar la semilla de una idea que durante el 2020 finalmente terminaria convirtiendose en Primigenia Austral. Nacimos siendo un grupo creativo o colectivo de creadores antes de asumir nuestro proyecto como una editorial tal cual. Actualmente apuntamos a la constante mejora y profecionalizacion de nuestros juegos y al crecimiento de la editorial para que nuestro sueño pueda llegar y ser compartido por otrxs</p>
+              <img class="col" src="./img/Beltaine.jpg" alt="" style="width: 375px">
+            </div>
+
+            <div class="col-7">
+                <h5>Objetivos</h5>
+            </div>
+            
+            <div class="row d-flex justify-content-center" style="background-color: #2c3742;">
+            <ul class="col-7 ms-4 mt-4" style="font-size: larger;">
+              <li>Crear contenido rolero de acceso libre y pagado</li>
+              <li>Promover el desarrollo de espacios seguros e integradores en el hobby</li>
+              <li>Mostrar nuestro trabajo</li>
+              <li>Compartir nuestra pasión por el hobby</li>
+              <li><del>Despertar al todo poderoso Cthulhu</del></li>
+            </ul>
+            <img class="col" src="./img/Beltaine.jpg" alt="" style="width: 375px">
+            </div>
+            
+            <div class="col-5"></div>
+            <div class="col-7">
+              <h5>El equipo de Primigenia</h5>
+            </div>
+
+            <div class="row d-flex justify-content-center mb-2">
+              <img class="col-8" src="./img/hernan.png" alt="" style="width: 200px"
+                onmouseover="changeImageAndText(this, 'La editorial, soy yo!', './img/dag1.jpg')"
+                onmouseout="changeImageAndText(this, 'Hernan Juarez, director de arte', './img/hernan.png')" />
+            
+              <h3 class="col-4 d-flex align-items-center mt-3" id="textToChangeHerni">
+                Hernan Juarez, director de arte
+              </h3>
+            </div>
+
+            <script>
+              function changeImageAndText(element, newText, newImageSrc) {
+                element.src = newImageSrc;
+                document.getElementById('textToChangeHerni').innerHTML = newText;
+              }
+            </script>
+            
+            <div class="row d-flex justify-content-center mb-2">
+              <img class="col-8" src="./img/cesar.png" alt="" style="width: 200px"
+                onmouseover="changeImageAndTextCesarito(this, '23 latigazos, como mínimo', './img/Hastur.jpg')"
+                onmouseout="changeImageAndTextCesarito(this, 'Cesar Jara, encargado de redacción', './img/cesar.png')" />
+            
+              <h3 class="col-4 d-flex align-items-center mt-3" id="textToChangeCesarito">
+                Cesar Jara, encargado de redacción
+              </h3>
+            </div>
+            
+            <script>
+              function changeImageAndTextCesarito(element, newText, newImageSrc) {
+                element.src = newImageSrc;
+                document.getElementById('textToChangeCesarito').innerHTML = newText;
+              }
+            </script>
+
+            <div class="row d-flex justify-content-center"">
+              <img class="col-8" src="./img/aleph.png" alt="" style="width: 200px"
+                onmouseover="changeImageAndTextHernanDandreis(this, 'Tenemos que purgar la ciudad!', './img/Nyarla.jpg')"
+                onmouseout="changeImageAndTextHernanDandreis(this, 'Hernan Dandreis, jefe de Recursos Humanos', './img/aleph.png')" />
+            
+              <h3 class="col-4 d-flex align-items-center mt-3" id="textToChangeHernanDandreis">
+                Hernan Dandreis, jefe de Recursos Humanos
+              </h3>
+            </div>
+            
+            <script>
+              function changeImageAndTextHernanDandreis(element, newText, newImageSrc) {
+                element.src = newImageSrc;
+                document.getElementById('textToChangeHernanDandreis').innerHTML = newText;
+              }
+            </script>
+
+        </div>
+
+      <!--JUEGOS-->
+        <div class="row">
+          <div class="col-12 fw-bolder">
+            <h2 class="text-center">JUEGOS</h2>
+          </div>
+
+            <div class="col-7">
+                <h5>Juegos gratuitos</h5>
+            </div>
+
+            <div class="row">
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzUzMDY4NDguanBn/315x250%23cb/CgTalt.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">1 ó 2 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: +16</span>
+                  <span class="badge text-bg-dark">Genero: terror</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzY2NjQ0NDcuanBn/315x250%23cb/Kp8WA%2B.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">2 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: 18</span>
+                  <span class="badge text-bg-dark">Genero: policial</span>
+                  <span class="badge text-bg-warning">Duracion: 3hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzQ3ODEyNjIuanBn/315x250%23cb/0QW9yM.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">3 a 6 Participantes</span>
+                  <span class="badge text-bg-danger data-toggle="tooltip" data-placement="right" title="Apto Para Todas las Edades">Edad: ATP</span>
+                  <span class="badge text-bg-dark">Genero: aventura</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzQ3ODcxNjEuanBn/315x250%23cb/CTzwyd.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">1 Participante</span>
+                  <span class="badge text-bg-danger">Edad: +16</span>
+                  <span class="badge text-bg-dark">Genero: terror</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzUzMDYxNTkucG5n/315x250%23cb/gncdsx.png" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">3 a 5 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: +13</span>
+                  <span class="badge text-bg-dark">Genero: aventuras</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzQ3ODEzMTAuanBn/315x250%23cb/rjUL4r.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">3 a 5 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: +15</span>
+                  <span class="badge text-bg-dark">Genero: belico</span>
+                  <span class="badge text-bg-warning">Duracion: 3hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzUwMTg0MDAucG5n/315x250%23cb/2tZLN6.png" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">4 a 5 Participantes</span>
+                  <span class="badge text-bg-danger data-toggle="tooltip" data-placement="right" title="Apto Para Todas las Edades">Edad: ATP</span>
+                  <span class="badge text-bg-dark">Genero: comedia</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center" style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzExMTU0NDY4LmpwZWc=/315x250%23cb/W1bsdx.jpeg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">1 Participante</span>
+                  <span class="badge text-bg-danger">Edad: +16</span>
+                  <span class="badge text-bg-dark">Genero: drama</span>
+                  <span class="badge text-bg-warning">Duracion: 30min</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center" style="width: 18rem; height: 22rem">
+                <img src="./img/2020 logo.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">X Participante</span>
+                  <span class="badge text-bg-danger">Edad: +16</span>
+                  <span class="badge text-bg-dark">Genero: horror</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-5"></div>
+            <div class="col-7">
+              <h5>Juegos pagos</h5>
+            </div>
+
+            <div class="row">
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzg0NDYyMTEuanBn/315x250%23cb/vBpbCD.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">2 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: +16</span>
+                  <span class="badge text-bg-dark">Genero: terror</span>
+                  <span class="badge text-bg-warning">Duracion: 3hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzg2MTgwNTEuanBn/315x250%23cb/r0tl8%2B.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">3 a 5 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: ATP</span>
+                  <span class="badge text-bg-dark">Genero: aventuras</span>
+                  <span class="badge text-bg-warning">Duracion: 3hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzkzNjk5NTEuanBn/315x250%23cb/4psKAA.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">3 a 5 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: +15</span>
+                  <span class="badge text-bg-dark">Genero: terror</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center" style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzEyODYxNDc0LnBuZw==/315x250%23cb/9SazxF.png" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">4 a 5 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: +15</span>
+                  <span class="badge text-bg-dark">Genero: drama</span>
+                  <span class="badge text-bg-warning">Duracion: 4hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center" style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzg1NTE4NTUuanBn/315x250%23cb/07JaZh.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">3 a 5 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: +16</span>
+                  <span class="badge text-bg-dark">Genero: belico</span>
+                  <span class="badge text-bg-warning">Duracion: 3hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center" style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzEyODYyNTE5LmpwZw==/315x250%23cb/KPrg%2Be.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">2 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: +15</span>
+                  <span class="badge text-bg-dark">Genero: belico</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="https://img.itch.zone/aW1nLzExMjE2Nzc0LmpwZw==/315x250%23c/KII9AU.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">3 a 5 Participantes</span>
+                  <span class="badge text-bg-danger">Edad: +12</span>
+                  <span class="badge text-bg-dark">Genero: comedia</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+              <div class="card ms-2 me-3 my-2 d-flex justify-content-center " style="width: 18rem; height: 22rem">
+                <img src="./img/2020 logo.jpg" class="card-img-top rounded mt-2" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-success">X Participante</span>
+                  <span class="badge text-bg-danger">Edad: +16</span>
+                  <span class="badge text-bg-dark">Genero: accion</span>
+                  <span class="badge text-bg-warning">Duracion: 2hs</span>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                  <a href="http://primigenia-austral.itch.io/retorno-a-sarnath" target="_blank">
+                    <img class="data-toggle="tooltip" data-placement="right" title="Descargalo gratis desde Itch.io" src="./img/itch-io-icon-filled-256.png" style="width: 30px;">
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-7">
+              <h5>En desarrollo</h5>
+            </div>
+
+            <div class="row">
+
+                <div class="card ms-2 me-3 my-1 col-6" style="width: 16rem;">
+                    <img src="https://img.itch.zone/aW1nLzEyOTU1ODE2LmpwZWc=/315x250%23cb/VB4kdt.jpeg" class="card-img-top rounded my-1" alt="...">
+                  </div>
+                    <div class="card-body col-4">
+                      <h5 class="card-title text-center" style="width: 50%;">Pampa Primigenia</h5>
+                      Correccion
+                      <div class="progress" style="width: 50%;">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>  
+
+                      Ilustracion
+                      <div class="progress" style="width: 50%;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+
+                      Maquetacion
+                      <div class="progress" style="width: 50%;">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+
+                      Otras weas
+                      <div class="progress" style="width: 50%;">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      
+                    </div>
+            </div>
+        </div>
+
+      <!--TRABAJAR CON NOSOTROS-->
+        <div class="row">
+            <div class="col-12 fw-bolder">
+              <h2 class="text-center">TRABAJAR CON PRIMIGENIA</h2>
+            </div>
+
+            <div class="col-5"></div>
+            <div class="col-7">
+              <h5>Criterios y politicas de publicacion</h5>
+            </div>
+
+            <div class="row" style="background-color: #2c3742;">
+              <a class="col-7 ms-3" href="#">Si te ha gustado nuestros juegos y nuestra línea editorial de trabajo, tal vez quieras publicar algún juego o aventura con nosotres. Nos encantaría conocer tus ideas, pero en el ánimo de hacerlo más fácil para todes, aquí tienes para descargar unas paginas en formato pdf con algunos criterios que te pedimos que cumplas antes de enviarnos tus proyectos, para ayudarte a ti y a nosotres a revisar el material.</a>
+              <img class="col" src="./img/Beltaine.jpg" alt="" style="width: 375px">
+            </div>
+
+            <div class="col-7">
+              <h5>Criterios de envio de arte</h5>
+            </div>
+
+            <div class="row" style="background-color: #2c3742;">
+              <img class="col" src="./img/Beltaine.jpg" alt="" style="width: 375px">
+
+                <a class="col-7 ms-3" href="#">En Primigenia Austral queremos darles prioridad a ilustradores latinoamericanos entre nuestras filas. Sabemos que hay allí un semillero de grandes artistas y queremos dar la oportunidad de que puedan lucir sus trabajos apuntando a un trabajo estético profesional. Además, sabemos el esfuerzo y el tiempo que lleva ilustrar cualquier proyecto o publicación, y lo difícil que es para los ilustradores latinos hacerse lugar en el medio, por lo que puedes esperar un trato profesional, pagado y de respeto hacia tu persona, tu trabajo y tiempo. Conoce mas sobre como presentar tu porfolio hace click aqui</a>
+
+            </div>
+
+        </div>
+
+      <!--HERRAMIENTAS DE SEGURIDAD-->
+        <div class="row">
+            <div class="col-12 fw-bolder">
+              <h2 class="text-center">HERRAMIENTAS DE SEGURIDAD</h2>
+            </div>
+
+
+        <div class="row" style="background-color: #2c3742;">
+          <a class="col-7 ms-3" href="#">Desde Primigenia creemos en que construir un ecosistema más saludable para nuestro hobby parte desde cada unx. Por ese motivo hemos creado un "Kit de herramienta de seguridad y confort" que se encuentra disponible y el libre descarga para que puedas llevar a tu mesa. Has click aqui para poder descargarlo. Ayúdano a difundir y normalizar el uso de herramientas de seguridad en el rol como una forma más de no validar la violencia ni el maltrato en nuestros espacios de juego.</a>
+          <img class="col" src="./img/Beltaine.jpg" alt="" style="width: 375px">
+        </div>
+        </div>
+
+      <!--COLABORADXS-->
+        <div class="row">
+          <div class="col-12 fw-bolder">
+              <h2 class="text-center">COLABORADXS</h2>
+          </div>
+
+          <div class="col-7">
+            <h5>Canales y podcast 📺</h5>
+          </div>
+
+          <div class="row">
+            <div class="card ms-2 me-3 my-2 d-flex justify-content-center" style="width: 18rem; height: 16rem">
+              <img src="./img/Logo En Clave de Rol1.png" class="card-img-top" alt="..." style="width: 262px; height: 208px">
+              <div class="card-footer d-flex justify-content-center gap-2">
+                <img src="./img/facebook.png" style="width: 30px;">
+                <img src="./img/instagram.png" style="width: 30px;">
+                <img src="./img/rQYXqS5v-F1ySdm9WYAIbjHo-1024x1024.jpeg" style="width: 30px;">
+                <img src="./img/discord-logo-1-1.png" style="width: 30px;">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-5"></div>
+          <div class="col-7">
+            <h5>Clubes y comunidades 🎲</h5>         
+          </div>
+
+          <div class="row">
+            <div class="card ms-2 me-3 my-2 d-flex justify-content-center" style="width: 18rem; height: 16rem">
+              <img src="./img/Logo En Clave de Rol1.png" class="card-img-top" alt="..." style="width: 262px; height: 208px">
+              <div class="card-footer d-flex justify-content-center gap-2">
+                <img src="./img/facebook.png" style="width: 30px;">
+                <img src="./img/instagram.png" style="width: 30px;">
+                <img src="./img/rQYXqS5v-F1ySdm9WYAIbjHo-1024x1024.jpeg" style="width: 30px;">
+                <img src="./img/discord-logo-1-1.png" style="width: 30px;">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-7">
+            <h5>Tiendas y editoriales 📖</h5> 
+          </div>
+
+          <div class="row">
+            <div class="card ms-2 me-3 my-2 d-flex justify-content-center" style="width: 18rem; height: 16rem">
+              <img src="./img/Logo En Clave de Rol1.png" class="card-img-top" alt="..." style="width: 262px; height: 208px">
+              <div class="card-footer d-flex justify-content-center gap-2">
+                <img src="./img/facebook.png" style="width: 30px;">
+                <img src="./img/instagram.png" style="width: 30px;">
+                <img src="./img/rQYXqS5v-F1ySdm9WYAIbjHo-1024x1024.jpeg" style="width: 30px;">
+                <img src="./img/discord-logo-1-1.png" style="width: 30px;">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-5"></div>
+          <div class="col-7">
+            <h5> Personas ⭐</h5>
+          </div>
+
+          <div class="row">
+            <div class="card ms-2 me-3 my-2 d-flex justify-content-center" style="width: 18rem; height: 16rem">
+              <img src="./img/Logo En Clave de Rol1.png" class="card-img-top" alt="..." style="width: 262px; height: 208px">
+              <div class="card-footer d-flex justify-content-center gap-2">
+                <img src="./img/facebook.png" style="width: 30px;">
+                <img src="./img/instagram.png" style="width: 30px;">
+                <img src="./img/rQYXqS5v-F1ySdm9WYAIbjHo-1024x1024.jpeg" style="width: 30px;">
+                <img src="./img/discord-logo-1-1.png" style="width: 30px;">
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 fw-bolder">
+              <h2 class="text-center">ARTISTAS</h2>
+            </div>
+          </div>
+
+        </div>
+
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
