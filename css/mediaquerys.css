@@ -1,0 +1,213 @@
+/* De Chrome */
+
+@media (max-width: 2560px) { /* Lista */
+    video {
+        width:58%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(11, 200px); /* Cambia el número de columnas según tus necesidades */
+        padding-left: 60px;
+    }
+
+    button {
+        width: 450px;
+        height: 75px;
+    }
+}
+
+/* MONITOR TRABAJO START */
+
+@media (max-width: 1866px) {
+    video {
+        width:80%;
+        padding: 12px 0;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(8, 200px); /* Cambia el número de columnas según tus necesidades */
+        padding-left: 60px;
+    }
+
+    button {
+        width: 300px;
+        height: 50px;
+    }
+}
+
+/* MONITOR TRABAJO END */
+
+@media (max-width: 1440px) {
+    video {
+        width:100%;
+        padding: 16px 0;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(6, 200px); /* Cambia el número de columnas según tus necesidades */
+        padding-left: 60px;
+    }
+}
+
+/* NOTEBOOK PERSONAL START */
+
+@media (max-width: 1312px) {
+    video {
+        width:70%;
+        padding: 16px 0;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(5, 200px); /* Cambia el número de columnas según tus necesidades */
+        padding-left: 100px;
+    }
+}
+
+/* NOTEBOOK PERSONAL END */
+
+@media (max-width: 1024px) {
+
+    .navbar {
+        padding-bottom: 16px;
+    }
+
+    video {
+        width:100%;
+        padding: 132px 0;
+        margin-top: 0;
+    }
+
+    #offcanvasExample > div.offcanvas-body.p-lg-0 > ul > li:nth-child(n) > a {
+        font-size: 0.75rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(4, 200px); /* Cambia el número de columnas según tus necesidades */
+        padding-left: 80px;
+    }
+
+    #cards {
+        padding-left: 60px;
+    }
+
+    button {
+        width: 300px;
+        height: 50px;
+    }
+
+}
+
+/* Modifican codigo */
+
+@media (min-width: 992px) {
+    .offcanvas {
+        visibility      : visible;
+        position        : relative;
+        background      : none;
+        border          : none;
+        justify-content : end;
+        background-color: var(--bgc);
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 992px) {
+    .offcanvas {
+        width : 250px;
+    }
+    .offcanvas-start-lg {
+        top          : 0;
+        left         : 0;
+        border-right : 1px solid rgba(0, 0, 0, .2);
+        transform    : translateX(-100%);
+    }
+    .dropdown-menu.show {
+        background-color: transparent;
+        border: none;
+    }
+    .dropdown-menu.show li a {
+        color: var(--TextColor);
+    }
+    #offcanvasExample > div.offcanvas-body.p-lg-0 > ul > li:nth-child(n) > a > b {
+        font-size: 12px;
+    }
+    #offcanvasExample > div.offcanvas-body.p-lg-0 > ul > li:nth-child(n) > ul > li:nth-child(n) > a {
+        font-size: 12px;
+    }
+    body > nav > div > a > b {
+        font-size: 16px; 
+    }
+}
+
+/* De Chrome */
+
+@media (max-width: 768px) {
+    .navbar {
+        padding-bottom: 8px;
+    }
+
+    video {
+        width:100%;
+        padding: 208px 0;
+    }
+
+    .text-white {
+        font-size: 16px;
+    }
+    .offcanvas-title {
+        font-size: 14px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 200px); /* Cambia el número de columnas según tus necesidades */
+        padding-left: 60px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    video {
+        width:100%;
+        padding: 20px 0;
+    }
+
+.col-12 {
+    padding: 0;
+}
+
+ul {
+    padding-top: 12px;
+}
+
+    .gallery {
+        grid-template-columns: repeat(1, 200px); /* Cambia el número de columnas según tus necesidades */
+        padding-left: 120px;
+    }
+
+/*    body {
+        overflow-y: hidden;
+    } */
+    
+}
+
+@media (max-width: 375px) {
+    #cards {
+        padding-left: 40px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(1, 200px); /* Cambia el número de columnas según tus necesidades */
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    #cards {
+        padding-left: 20px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(1, 200px); /* Cambia el número de columnas según tus necesidades */
+        padding-left: 68px;
+    }
+}

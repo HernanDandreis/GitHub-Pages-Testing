@@ -6,6 +6,10 @@
     padding: 12px;
 }
 
+.row.d-flex.align-items-center {
+    background-color: var(--bgc);
+}
+
 a {
     text-decoration: none;
 }
@@ -13,12 +17,6 @@ a {
 a:hover {
     cursor: pointer;
 }
-
-/* p,a {
-    display: flex;
-    align-items: center;
-} */
-
 
 body > div > div:nth-child(1) > div:nth-child(11) > img,
 body > div > div:nth-child(1) > div:nth-child(13) > img,
