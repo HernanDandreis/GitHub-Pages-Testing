@@ -23,3 +23,7 @@ body > div > div:nth-child(1) > div:nth-child(13) > img,
 body > div > div:nth-child(1) > div:nth-child(15) > img {
     border-radius: 50%;
 }
+
+#next {
+    margin: 4px
+} 

@@ -171,13 +171,13 @@
         padding: 20px 0;
     }
 
-.col-12 {
-    padding: 0;
-}
+    .col-12 {
+        padding: 0;
+    }
 
-ul {
-    padding-top: 12px;
-}
+    ul {
+        padding-top: 12px;
+    }
 
     .gallery {
         grid-template-columns: repeat(1, 200px); /* Cambia el número de columnas según tus necesidades */
