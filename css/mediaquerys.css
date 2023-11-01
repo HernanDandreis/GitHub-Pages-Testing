@@ -183,11 +183,6 @@
         grid-template-columns: repeat(1, 200px); /* Cambia el número de columnas según tus necesidades */
         padding-left: 120px;
     }
-
-/*    body {
-        overflow-y: hidden;
-    } */
-    
 }
 
 @media (max-width: 375px) {
