@@ -2,12 +2,12 @@
 
 @media (max-width: 2560px) { /* Lista */
     video {
-        width:58%;
+        width:58% !important; 
     }
 
     .gallery {
-        grid-template-columns: repeat(11, 200px); /* Cambia el número de columnas según tus necesidades */
-        padding-left: 60px;
+        grid-template-columns: repeat(11, 200px) !important; 
+        padding-left: 60px !important;
     }
 
     button {
@@ -16,17 +16,19 @@
     }
 }
 
+/* De Chrome */
+
 /* MONITOR TRABAJO START */
 
-@media (max-width: 1866px) {
+@media (max-width: 1920px) {
     video {
-        width:80%;
+        width: 79% !important;
         padding: 12px 0;
     }
 
     .gallery {
-        grid-template-columns: repeat(8, 200px); /* Cambia el número de columnas según tus necesidades */
-        padding-left: 60px;
+        grid-template-columns: repeat(8, 200px) !important; 
+        padding-left: 60px !important;
     }
 
     button {
@@ -39,27 +41,27 @@
 
 @media (max-width: 1440px) {
     video {
-        width:100%;
+        width:100% !important;
         padding: 16px 0;
     }
 
     .gallery {
-        grid-template-columns: repeat(6, 200px); /* Cambia el número de columnas según tus necesidades */
-        padding-left: 60px;
+        grid-template-columns: repeat(6, 200px) !important;
+        padding-left: 60px !important;
     }
 }
 
 /* NOTEBOOK PERSONAL START */
 
-@media (max-width: 1312px) {
+@media (max-width: 1366px) {
     video {
-        width:70%;
-        padding: 16px 0;
+        width: 70% !important;
+        padding: 12px 0;
     }
 
     .gallery {
-        grid-template-columns: repeat(5, 200px); /* Cambia el número de columnas según tus necesidades */
-        padding-left: 100px;
+        grid-template-columns: repeat(5, 200px) !important;
+        padding-left: 100px !important;
     }
 }
 
@@ -82,7 +84,7 @@
     }
 
     .gallery {
-        grid-template-columns: repeat(4, 200px); /* Cambia el número de columnas según tus necesidades */
+        grid-template-columns: repeat(4, 200px) !important; 
         padding-left: 80px;
     }
 
@@ -159,7 +161,7 @@
     }
 
     .gallery {
-        grid-template-columns: repeat(3, 200px); /* Cambia el número de columnas según tus necesidades */
+        grid-template-columns: repeat(3, 200px) !important; 
         padding-left: 60px;
     }
 
@@ -180,7 +182,7 @@
     }
 
     .gallery {
-        grid-template-columns: repeat(1, 200px); /* Cambia el número de columnas según tus necesidades */
+        grid-template-columns: repeat(1, 200px) !important; 
         padding-left: 120px;
     }
 }
@@ -191,7 +193,7 @@
     }
 
     .gallery {
-        grid-template-columns: repeat(1, 200px); /* Cambia el número de columnas según tus necesidades */
+        grid-template-columns: repeat(1, 200px) !important; 
         padding-left: 100px;
     }
 }
@@ -202,7 +204,7 @@
     }
 
     .gallery {
-        grid-template-columns: repeat(1, 200px); /* Cambia el número de columnas según tus necesidades */
+        grid-template-columns: repeat(1, 200px) !important; 
         padding-left: 68px;
     }
 }

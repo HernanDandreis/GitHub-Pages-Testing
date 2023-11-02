@@ -1,6 +1,6 @@
 .gallery {
     display: grid;
-    grid-template-columns: repeat(8, 200px); /* Cambia el número de columnas según tus necesidades */
+    grid-template-columns: repeat(8, 200px) !important;
     gap: 20px;
     max-width: 800px;
     padding: 20px;
