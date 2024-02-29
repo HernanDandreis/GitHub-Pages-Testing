@@ -1,0 +1,24 @@
+{
+  "name": "landing-primigenia",
+  "version": "2.0.0",
+  "description": "Landing web de la editorial Primigenia Austral",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlephPerth/Primigenia-Austral-Landing.git"
+  },
+  "keywords": [
+    "Primigenia",
+    "editorial",
+    "landing"
+  ],
+  "author": "Aleph Perth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlephPerth/Primigenia-Austral-Landing/issues"
+  },
+  "homepage": "https://github.com/AlephPerth/Primigenia-Austral-Landing#readme"
+}
